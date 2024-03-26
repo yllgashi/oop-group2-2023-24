@@ -1,6 +1,6 @@
-package lecture7_objects_interaction;
+package lecture10_pointers;
 
-public class Dog {
+class Person {
     private String name;
 
     public String getName() {
@@ -9,9 +9,5 @@ public class Dog {
 
     public void setName(String name) {
         this.name = name;
-    }
-
-    public void speak() {
-        System.out.println("I am " + name);
     }
 }
