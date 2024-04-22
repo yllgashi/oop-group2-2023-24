@@ -4,11 +4,11 @@ class Square {
     private int a;
 
     public Square(int a) {
-        setA(a);
+        this.setA(a);
     }
 
     public int getA() {
-        return a;
+        return this.a;
     }
 
     public void setA(int a) {
@@ -24,11 +24,11 @@ class Square {
     }
 
     public double calculatePerimeter() {
-        return 4 * a;
+        return 4 * this.getA();
     }
 
     public double calculateSyprine() {
-        return a * a;
+        return a * this.getA();
     }
 
     public boolean hasGreaterSyprineThan(Square anotherSquare) {

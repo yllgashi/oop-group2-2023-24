@@ -5,8 +5,8 @@ class Point {
     private int y;
 
     public Point(int x, int y) {
-        setX(x);
-        setY(y);
+        this.setX(x);
+        this.setY(y);
     }
 
     public void setX(int x) {
