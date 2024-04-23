@@ -1,24 +1,31 @@
 package lecutre25_arrays_arraylist;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Main {
+
+/*
+    Arrays => Use arrays when you know exactly number of elements in collection
+ */
+public class ArraysWithObjectsExample {
     public static void main(String[] args) {
         // array
         int[] array1 = new int[10];
         int[] array2 = new int[]{1, 2, 3, 4, 5, 6, 7, 8, 9};
         fillArray(array1);
         // array1[12] = 10; ERROR
+
+
         // create array of objects
         Person[] people = new Person[10];
 
+        Person person1 = new Person("Filan", "Fisteku");
+        Person person2 = new Person("Testim", "Testeri");
 
-        // arraylist
-        ArrayList arrayList = new ArrayList();
-        arrayList.add(1);
-        arrayList.add(2);
-        arrayList.add("Test");
+        people[0] = person1;
+        people[1] = person2;
+
+        System.out.println(person1.getFirstName());
+        System.out.println(people[0].getFirstName());
     }
 
     public static void fillArray(int[] array) {
