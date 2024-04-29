@@ -1,4 +1,4 @@
-package lecutre25_arrays_arraylist;
+package lecture25_arrays_arraylist_1;
 
 public class Account {
     private String username;

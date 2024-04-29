@@ -1,6 +1,5 @@
-package lecutre25_arrays_arraylist;
+package lecture25_arrays_arraylist_1;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class ArrayListWithObjectsExample {
