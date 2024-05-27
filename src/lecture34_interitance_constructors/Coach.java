@@ -1,7 +1,9 @@
 package lecture34_interitance_constructors;
 
 class Coach extends Person {
+    private String experienceDescription;
 
+    // parent-constructor should be called inside child-constructor
     public Coach(int id, String firstName, String lastName, String experienceDescription) {
         super(id, firstName, lastName);
 //        this.setId(id);
@@ -10,8 +12,6 @@ class Coach extends Person {
 
         this.setExperienceDescription(experienceDescription);
     }
-
-    private String experienceDescription;
 
     public String getExperienceDescription() {
         return experienceDescription;

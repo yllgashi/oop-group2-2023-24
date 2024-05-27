@@ -1,7 +1,7 @@
 package lecture35_inheritance_protected;
 
 class Coach extends Person {
-    private String experienceDescription;
+    public String experienceDescription;
 
     public String getExperienceDescription() {
         return experienceDescription;

@@ -1,6 +1,6 @@
 package lecture13_constructors;
 
-public class Person {
+class Person {
     private int id;
     private String fullname;
 
