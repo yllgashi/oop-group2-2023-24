@@ -1,4 +1,4 @@
-package lecture40_aviary_example;
+package lecture40_aviary_example_without_inheritance;
 
 class Bird {
     private int id;

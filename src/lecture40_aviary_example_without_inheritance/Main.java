@@ -1,5 +1,10 @@
-package lecture40_aviary_example;
+package lecture40_aviary_example_without_inheritance;
 
+
+
+/*
+    NOT RECOMMENDED WITHOUT INHERITANCE
+ */
 public class Main {
     public static void main(String[] args) {
         // THIS IS NOT RECOMMENDED, because:

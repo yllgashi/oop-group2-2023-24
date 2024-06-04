@@ -7,14 +7,25 @@ public class Main {
         // because Person has parent "Object"
         Person obj1 = new Person(1, "Filan", "Fisteku");
 
+        /*
+            toString()
+         */
         // we override implementation of method "toString()"
         System.out.println(obj1.toString());
         System.out.println(obj1); // same as obj1.toString()
 
 
+        /*
+            equals()
+         */
         Person obj2 = new Person(2, "Testim", "Testeri");
 
         // we compare attribute "firstName" of two objeects and we print the result
         System.out.println("Is the same?: " + obj1.equals(obj2));
+
+         /*
+            getClass()
+         */
+        System.out.println("Class name: " + obj1.getClass());
     }
 }
