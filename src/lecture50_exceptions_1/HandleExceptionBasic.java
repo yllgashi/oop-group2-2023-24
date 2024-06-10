@@ -11,7 +11,9 @@ class HandleExceptionBasic {
         try {
             result = numberOne / numberTwo;
             System.out.println(result);
-        } catch (Exception ex) {
+        }
+        catch (Exception ex) {
+            System.out.println(ex);
             System.out.println("An error happened...");
         }
 
