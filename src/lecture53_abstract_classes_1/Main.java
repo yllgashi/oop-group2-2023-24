@@ -1,6 +1,6 @@
 package lecture53_abstract_classes_1;
 
-public class Main {
+class Main {
     public static void main(String[] args) {
         // we cannot create instance of abstract class
         // Shape shape = new Shape();

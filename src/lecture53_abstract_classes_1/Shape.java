@@ -1,6 +1,6 @@
 package lecture53_abstract_classes_1;
 
-public abstract class Shape {
+abstract class Shape {
     private int id;
 
     // abstract method cannot have body
